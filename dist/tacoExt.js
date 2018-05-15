@@ -71,17 +71,12 @@
 
 
 if (!window.taco) throw new Error('Taco is not defined');
-
 var taco = window.taco;
 
-var EVENT = 'taco-event-query';
+var EXTENSION_NAME = 'taco-extension-name';
 
-taco.eventApi = {
-    query: function query(q) {
-        taco.send(EVENT, {
-            query: q
-        });
-    }
+taco[EXTENSION_NAME] = {
+    //All the extension functions go here
 };
 
 /***/ })
