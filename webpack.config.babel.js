@@ -7,9 +7,8 @@ module.exports =  {
     entry               : './src/index.js',
     output              : {
         filename        : "tacoExt.js",
-        path            : join(__dirname, 'dist'),
-        libraryTarget   : 'var',
-        library         : 'tacoExt'
+        path            : join(__dirname, 'dist')
+
     },
     devtool             : 'source-map',
     module              : {
