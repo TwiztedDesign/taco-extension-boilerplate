@@ -6,14 +6,9 @@ var EVENT = 'taco-event-query';
 
 
 taco.eventApi = {
-    query : function(query){
+    query : (q) => {
         taco.send(EVENT, {
-            query : query
-        });
-    },
-    all : function(){
-        taco.send(EVENT, {
-            query : 'all'
+            query : q
         });
     }
 };

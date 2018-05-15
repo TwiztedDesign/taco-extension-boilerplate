@@ -6,10 +6,10 @@ const include = join(__dirname, 'src');
 module.exports =  {
     entry               : './src/index.js',
     output              : {
-        filename        : "taco.js",
+        filename        : "tacoExt.js",
         path            : join(__dirname, 'dist'),
-        libraryTarget   : 'umd',
-        library         : 'taco'
+        libraryTarget   : 'var',
+        library         : 'tacoExt'
     },
     devtool             : 'source-map',
     module              : {
