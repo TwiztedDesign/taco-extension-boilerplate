@@ -1,4 +1,8 @@
-.idea/vcs.xml
-.idea/modules.xml
-.idea/taco-extension-boilerplate.iml
-.idea/workspace.xml
+.idea
+node_modules
+.DS_Store
+#dist
+coverage
+.nyc_output
+build.config.json
+npm-debug.log

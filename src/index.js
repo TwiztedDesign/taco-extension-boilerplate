@@ -10,6 +10,11 @@ taco.eventApi = {
         taco.send(EVENT, {
             query : query
         });
+    },
+    all : function(){
+        taco.send(EVENT, {
+            query : 'all'
+        });
     }
 };
 
