@@ -1,9 +1,9 @@
-if(!window.taco) throw new Error('Taco is not defined');
-var taco = window.taco;
+let taco = window.taco;
 
-var EXTENSION_NAME = 'my-taco-extension-name';
 
-taco[EXTENSION_NAME] = {
-    //All the extension functions go here
-};
+/********* To define new taco element ******************/
+// taco.define(name, element);
+
+/********* To extend taco with new functions ***********/
+// taco.extend(api-name, object with functions);
 

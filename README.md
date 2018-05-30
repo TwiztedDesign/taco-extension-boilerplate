@@ -49,10 +49,13 @@ Include this in your html file after you include the taco script
 
 
 ## Tests
-To run tests:
+Run tests:
 
-    npm run watch 
+    npm test 
 
+Watch tests:
+
+    npm run test-watch
 
 
 ## 🍻 Cheers 🍻 

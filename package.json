@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll",
-    "cover": "jest --coverage",
+    "test": "jest --coverage --no-cache",
+    "test-watch": "jest --watchAll",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
     "prebuild": "rimraf dist",
@@ -16,7 +16,8 @@
     "!build:umd.min": "webpack --output-filename taco.min.js -p"
   },
   "files": [
-    "dist"
+    "dist",
+    "test/setup.js"
   ],
   "keywords": [
     "taco",
