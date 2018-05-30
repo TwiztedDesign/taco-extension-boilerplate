@@ -33,19 +33,15 @@ Install Dependencies
 
     npm install
 
-1. Change the EXTENSION_NAME variable in the index.html file
-2. Add your public functions inside the extension object
-
-
 ## Build
     npm run build
     
 This will generate the file /dist/tacoExt.js.  
 Include this in your html file after you include the taco script
 
-### usage example
-    taco.my-extension-name.my-extension-function();
-
+### usage examples
+To check out the examples, uncomment the require statements in the index.html   
+and open examples/basic/index.html in your browser
 
 
 ## Tests
